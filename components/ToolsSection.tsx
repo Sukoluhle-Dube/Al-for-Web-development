@@ -16,14 +16,14 @@ export const ToolsSection: React.FC = () => {
           {AI_TOOLS.map((category, idx) => (
             <div key={idx}>
               <h3 className="text-xl font-bold text-zinc-800 dark:text-zinc-200 mb-6 flex items-center">
-                <span className="w-8 h-1 bg-yellow-400 rounded-full mr-3"></span>
+                <span className="w-8 h-1 bg-blue-600 rounded-full mr-3"></span>
                 {category.category}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {category.items.map((tool, tIdx) => {
                   const Icon = tool.icon;
                   return (
-                    <div key={tIdx} className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm p-6 border border-zinc-200 dark:border-zinc-800 hover:border-yellow-400/40 transition-colors">
+                    <div key={tIdx} className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm p-6 border border-zinc-200 dark:border-zinc-800 hover:border-blue-400/40 transition-colors">
                       <div className="flex items-start">
                         <div className={`p-3 rounded-lg ${tool.color} mr-4 shrink-0`}>
                           <Icon className="h-6 w-6" />
@@ -80,14 +80,14 @@ export const ToolsSection: React.FC = () => {
           {/* Image Generation Subsection */}
           <div>
              <h3 className="text-xl font-bold text-zinc-800 dark:text-zinc-200 mb-6 flex items-center">
-                <span className="w-8 h-1 bg-yellow-400 rounded-full mr-3"></span>
+                <span className="w-8 h-1 bg-blue-600 rounded-full mr-3"></span>
                 Image Generation Tools
               </h3>
              <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-zinc-200 dark:border-zinc-800 overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-zinc-200 dark:divide-zinc-800">
                   <div className="p-8">
                     <div className="flex items-center mb-4">
-                      <Star className="h-5 w-5 text-yellow-500 mr-2" />
+                      <Star className="h-5 w-5 text-blue-500 mr-2" />
                       <h4 className="text-lg font-bold text-zinc-900 dark:text-white">Premium Tools</h4>
                     </div>
                     <ul className="space-y-3">

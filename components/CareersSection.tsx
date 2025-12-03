@@ -15,19 +15,19 @@ export const CareersSection: React.FC = () => {
 
         <div className="bg-white dark:bg-zinc-950 rounded-2xl shadow-xl overflow-hidden border border-zinc-200 dark:border-zinc-800">
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="bg-yellow-400 p-10 flex flex-col justify-center text-black">
-              <Briefcase className="h-12 w-12 mb-6 text-black/80" />
+            <div className="bg-blue-600 p-10 flex flex-col justify-center text-white">
+              <Briefcase className="h-12 w-12 mb-6 text-blue-100" />
               <h3 className="text-2xl font-bold mb-4">Start Today</h3>
-              <p className="text-black/80 mb-6 font-medium">
+              <p className="text-blue-100 mb-6 font-medium">
                 You don't need years of experience. The tools we covered allow you to deliver professional results immediately.
               </p>
-              <div className="font-bold text-lg border-t border-black/20 pt-4">Your future awaits.</div>
+              <div className="font-bold text-lg border-t border-blue-500 pt-4">Your future awaits.</div>
             </div>
             <div className="p-10">
               <ul className="space-y-4">
                 {CAREER_OPPS.map((opp, idx) => (
                   <li key={idx} className="flex items-start">
-                    <ArrowRightCircle className="h-5 w-5 text-yellow-600 dark:text-yellow-500 mt-1 mr-3 flex-shrink-0" />
+                    <ArrowRightCircle className="h-5 w-5 text-blue-600 dark:text-blue-500 mt-1 mr-3 flex-shrink-0" />
                     <span className="text-zinc-700 dark:text-zinc-300 font-medium">{opp}</span>
                   </li>
                 ))}

@@ -126,7 +126,7 @@ export const AI_TOOLS = [
         name: 'Wix ADI',
         description: 'AI that designs your website for you based on your answers.',
         icon: Layout,
-        color: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400',
+        color: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-400',
       },
       {
         name: 'Framer AI',

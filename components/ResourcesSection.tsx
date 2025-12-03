@@ -17,7 +17,7 @@ export const ResourcesSection: React.FC = () => {
           <div className="lg:col-span-1 space-y-8">
             <div className="bg-white dark:bg-zinc-900 p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 h-full shadow-sm">
               <div className="flex items-center mb-6">
-                <Image className="h-6 w-6 text-yellow-600 dark:text-yellow-500 mr-2" />
+                <Image className="h-6 w-6 text-blue-600 dark:text-blue-500 mr-2" />
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-white">Free Assets</h3>
               </div>
               
@@ -54,7 +54,7 @@ export const ResourcesSection: React.FC = () => {
           <div className="lg:col-span-1">
             <div className="bg-white dark:bg-zinc-900 rounded-xl h-full p-6 border border-zinc-200 dark:border-zinc-800 shadow-sm">
                <div className="flex items-center mb-6">
-                <Database className="h-6 w-6 text-yellow-600 dark:text-yellow-500 mr-2" />
+                <Database className="h-6 w-6 text-blue-600 dark:text-blue-500 mr-2" />
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-white">Cloud Storage</h3>
               </div>
               <div className="space-y-4">
@@ -67,7 +67,7 @@ export const ResourcesSection: React.FC = () => {
                         <span className="font-semibold text-zinc-800 dark:text-zinc-200 text-sm">{item.name}</span>
                     </div>
                     <div className="text-right">
-                        <div className="text-sm font-bold text-yellow-600 dark:text-yellow-400">{item.storage}</div>
+                        <div className="text-sm font-bold text-blue-600 dark:text-blue-400">{item.storage}</div>
                         <div className="text-xs text-zinc-500">{item.price}</div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ export const ResourcesSection: React.FC = () => {
           {/* Setup Guide Column */}
           <div className="lg:col-span-1">
              <div className="flex items-center mb-6 pl-6 pt-6 lg:pl-0 lg:pt-0">
-                <Laptop className="h-6 w-6 text-yellow-600 dark:text-yellow-500 mr-2" />
+                <Laptop className="h-6 w-6 text-blue-600 dark:text-blue-500 mr-2" />
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-white">OS Installation</h3>
               </div>
             <div className="bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-xl p-6 shadow-md h-fit border border-zinc-200 dark:border-zinc-700">

@@ -16,15 +16,15 @@ export const ConceptsSection: React.FC = () => {
           {KEY_CONCEPTS.map((concept, idx) => {
             const Icon = concept.icon;
             return (
-              <div key={idx} className="bg-white dark:bg-zinc-950 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-800 hover:border-yellow-400/50 hover:shadow-lg transition-all">
-                <div className="w-12 h-12 bg-zinc-50 dark:bg-zinc-900 rounded-lg flex items-center justify-center mb-4 text-yellow-600 dark:text-yellow-400 border border-zinc-100 dark:border-zinc-800">
+              <div key={idx} className="bg-white dark:bg-zinc-950 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-800 hover:border-blue-400/50 hover:shadow-lg transition-all">
+                <div className="w-12 h-12 bg-blue-50 dark:bg-zinc-900 rounded-lg flex items-center justify-center mb-4 text-blue-600 dark:text-blue-400 border border-blue-100 dark:border-zinc-800">
                   <Icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-white mb-2">{concept.term}</h3>
                 <p className="text-zinc-600 dark:text-zinc-400 font-medium mb-2">{concept.definition}</p>
                 <div className="bg-zinc-50 dark:bg-zinc-900 p-3 rounded-lg border border-zinc-100 dark:border-zinc-800">
                   <p className="text-sm text-zinc-500 italic">
-                    <span className="font-semibold text-yellow-600/80 dark:text-yellow-500/80 not-italic">Analogy: </span> 
+                    <span className="font-semibold text-blue-600/80 dark:text-blue-500/80 not-italic">Analogy: </span> 
                     {concept.analogy}
                   </p>
                 </div>

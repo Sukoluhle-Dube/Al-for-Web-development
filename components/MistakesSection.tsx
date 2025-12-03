@@ -8,7 +8,7 @@ export const MistakesSection: React.FC = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-zinc-900 dark:text-white flex items-center justify-center">
-            <AlertTriangle className="h-8 w-8 text-yellow-500 mr-3" />
+            <AlertTriangle className="h-8 w-8 text-blue-600 dark:text-blue-500 mr-3" />
             Common Beginner Mistakes
           </h2>
           <p className="mt-4 text-zinc-600 dark:text-zinc-400">Avoid these pitfalls to create professional-looking results.</p>
@@ -30,7 +30,7 @@ export const MistakesSection: React.FC = () => {
         </div>
         
         <div className="mt-10 text-center">
-          <span className="inline-block px-4 py-2 bg-white dark:bg-zinc-800 text-yellow-600 dark:text-yellow-400 border border-zinc-200 dark:border-zinc-700 rounded-full font-bold text-sm shadow-sm">
+          <span className="inline-block px-4 py-2 bg-white dark:bg-zinc-800 text-blue-600 dark:text-blue-400 border border-zinc-200 dark:border-zinc-700 rounded-full font-bold text-sm shadow-sm">
             Remember: Simple always wins.
           </span>
         </div>
